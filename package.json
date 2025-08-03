@@ -1,0 +1,30 @@
+{
+  "name": "@rikoou/tablio",
+  "version": "0.1.1",
+  "description": "Just a table component",
+  "license": "ISC",
+  "author": "Aymeric Gatat",
+  "type": "module",
+  "main": "./dist/tablio.umd.js",
+  "module": "./dist/tablio.es.js",
+  "exports": {
+    "import": "./dist/tablio.es.js",
+    "require": "./dist/tablio.umd.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
